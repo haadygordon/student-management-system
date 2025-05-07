@@ -19,12 +19,13 @@ This is a simple web-based student management system built with Python, Flask, a
 1. Clone this repository: git clone https://github.com/haadygordon/student-management-system.git
 2. Set up a MySQL database named `student_db` and create a `students` table:
 ```sql
-CREATE TABLE students (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    age INT,
-    major VARCHAR(100)
-);```
+    CREATE TABLE students (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        name VARCHAR(100),
+        age INT,
+        major VARCHAR(100)
+    );
+```
 3. Install the required Python packages: pip install flask mysql-connector-python
 4. Run the application: python app.py
 5. Open your browser and go to http://127.0.0.1:5000/
